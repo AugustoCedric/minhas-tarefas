@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 type Props = {
-  ativo?: boolean
+  ativo: boolean
 }
 
 export const Card = styled.div<Props>`
@@ -10,6 +10,7 @@ export const Card = styled.div<Props>`
   background-color: ${(props) => (props.ativo ? '#FFF' : '#fcfcfc')};
   color: ${(props) => (props.ativo ? '#1E90FF' : '#5e5e5e')};
   border-radius: 8px;
+  cursor: pointer;
 `
 
 export const Contador = styled.span`

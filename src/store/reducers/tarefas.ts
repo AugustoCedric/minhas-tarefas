@@ -24,8 +24,8 @@ const initialState: TarefasState = {
     {
       id: 3,
       descricao: 'Estudar a construção HTML',
-      prioridade: enums.Prioridade.NORMAL,
-      status: enums.Status.CONCLUIDA,
+      prioridade: enums.Prioridade.IMPORTANTE,
+      status: enums.Status.PENDENTE,
       titulo: 'Estudar Bootstrap'
     }
   ]
